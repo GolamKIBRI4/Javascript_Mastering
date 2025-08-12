@@ -1,0 +1,7 @@
+function doubleEvenNumber(arr){
+
+   return arr.map(num => num % 2 === 0 ? num * 2 : num);
+
+}
+
+console.log("Double Even Numbers in Array: ", doubleEvenNumber([1, 2, 3, 4, 5, 6]));
