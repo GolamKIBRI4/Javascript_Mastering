@@ -3,7 +3,7 @@ console.log("Original String: ", str);
 
 //slice
 console.log("Using Slice: ", str.slice(0,5));
-console.log("Using slice: ", str.slice(6)); //World!
+console.log("Using slice: ", str.slice(6)); //World!,nice World!
 console.log("Using slice: ", str.slice(-6)); //World!
 
 //substring
