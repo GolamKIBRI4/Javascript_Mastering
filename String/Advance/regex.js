@@ -2,7 +2,7 @@ let str = "Hello, world!";
 
 //one way
 const regex = /World/i; //case insensitive;
-console.log("Using test: ",str.search(regex)); 
+console.log("Using test: ",str.search(regex)); //index of match
 
 //test(): Tests if a string matches the regex.
 console.log("Using Test",regex.test(str));   //boolean :true
